@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+#container {
+	width: 550px;
+	height: 550px;
+	background-color: hsla(0,0%,90%, 0.8);
+	box-shadow: 10px 10px 25px gray;
+	
+}
+.button {
+	width: 80px;
+	height: 80px;
+	overflow: hidden;
+	background-color: hsl(0,0%,85%);
+	display: inline-block;
+	padding: 5px 10px;
+	justify-content: center;
+	font-size: 5rem;
+	cursor: pointer;
+	transition: background-color 0.2s;
+	border-radius: 5px;
+}
+.button:hover {
+	background-color: hsl(0,0%,90%);
+}
+.x {
+	color: blue;
+}
+.o {
+	color: green;
+}
+#result {
+	font-size: 1.5rem;
+}
+#player {
+	font-size: 1.3rem;
+}
